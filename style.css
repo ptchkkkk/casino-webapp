@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.balance {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.menu {
+    display: none;
+    text-align: center;
+}
+
+.menu button {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
