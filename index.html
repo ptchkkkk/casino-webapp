@@ -1,44 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Casino</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to the Casino!</h1>
-            <div class="balance">
-                <span>Balance: 1000 Coins</span>
-            </div>
-        </header>
+  <div class="container">
+    <h1>🎰 Welcome to the ArizonaCaz</h1>
+    <div class="balance">Balance: <span id="balance">1000</span> Coins</div>
 
-        <nav>
-            <ul>
-                <li><button onclick="openGameMenu()">Games</button></li>
-                <li><button onclick="openDepositMenu()">Deposit</button></li>
-            </ul>
-        </nav>
-
-        <!-- Game Menu -->
-        <div id="game-menu" class="menu">
-            <h2>Select a Game</h2>
-            <button>Slots</button>
-            <button>Roulette</button>
-            <button>Poker</button>
-        </div>
-
-        <!-- Deposit Menu -->
-        <div id="deposit-menu" class="menu">
-            <h2>Deposit</h2>
-            <button onclick="depositWithBybit()">Bybit</button>
-            <button onclick="depositWithBinance()">Binance</button>
-            <button onclick="depositWithTelegramStars()">Telegram Stars</button>
-        </div>
+    <h2>🎮 Select a Game</h2>
+    <div class="games">
+      <div class="card">
+        <h3>Slots 🎲</h3>
+        <button>Play</button>
+      </div>
+      <div class="card">
+        <h3>Roulette 🎡</h3>
+        <button>Play</button>
+      </div>
+      <div class="card">
+        <h3>Poker ♠️</h3>
+        <button>Play</button>
+      </div>
     </div>
 
-    <script src="app.js"></script>
+    <h2>💰 Deposit</h2>
+    <div class="deposit">
+      <button>Bybit</button>
+      <button>Binance</button>
+      <button>Telegram Stars ⭐</button>
+    </div>
+  </div>
 </body>
-</html>
